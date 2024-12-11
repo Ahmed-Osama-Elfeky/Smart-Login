@@ -1,0 +1,151 @@
+/* Extra small screens */
+/* hint : smart watches */
+@media all and (width <=640px) {
+    /* code excute when sreen extra small */
+
+    body {
+        /* background-color: #f40f0f; */
+    }
+
+    .xs-100{
+        width: 100%;
+    }
+    .xs-70{
+        width: 70%;
+    }
+    .xs-50{
+        width: 50%;
+    }
+    .xs-25{
+        width: 25%;
+    }
+
+    .xs-16{
+        width: 16%;
+    }
+
+}
+
+
+
+/* small screens */
+/* hint : iphone 12 */
+@media all and (640px< width <=768px) {
+    /* code excute when sreen small */
+
+    .sm-100{
+        width: 100%;
+    }
+    .sm-70{
+        width: 70%;
+    }
+    .sm-50{
+        width: 50%;
+    }
+    .sm-25{
+        width: 25%;
+    }
+
+    .sm-16{
+        width: 16%;
+    }
+
+}
+
+
+/* med screens */
+/* hint : iPad */
+@media all and (768px< width <=1024px) {
+    /* code excute when sreen med */
+    .med-100{
+        width: 100%;
+    }
+    .med-70{
+        width: 70%;
+    }
+    .med-50{
+        width: 50%;
+    }
+    .med-25{
+        width: 25%;
+    }
+
+    .med-16{
+        width: 16%;
+    }
+
+
+}
+
+/* large screens */
+/* hint : laptop 13 inch */
+@media all and (1024px< width <=1280px) {
+    /* code excute when sreen lg */
+    .lg-100{
+        width: 100%;
+    }
+    .lg-70{
+        width: 70%;
+    }
+    .lg-50{
+        width: 50%;
+    }
+    .lg-25{
+        width: 25%;
+    }
+
+    .lg-16{
+        width: 16%;
+    }
+
+
+}
+
+/* extra-large screens */
+/* hint : laptop 16 inch */
+@media all and (1280px< width <=1536px) {
+    /* code excute when sreen x-lg */
+    .xlg-100{
+        width: 100%;
+    }
+    .xlg-70{
+        width: 70%;
+    }
+    .xlg-50{
+        width: 50%;
+    }
+    .xlg-25{
+        width: 25%;
+    }
+
+    .xlg-16{
+        width: 16%;
+    }
+
+
+}
+
+
+/* extra-large screens */
+/* hint : smart iv inch */
+@media all and (width > 1536px) {
+    /* code excute when sreen 2x-lg */
+
+    .xxlg-100{
+        width: 100%;
+    }
+    .xxlg-70{
+        width: 70%;
+    }
+    .xxlg-50{
+        width: 50%;
+    }
+    .xxlg-25{
+        width: 25%;
+    }
+
+    .xxlg-16{
+        width: 16%;
+    }
+
+}

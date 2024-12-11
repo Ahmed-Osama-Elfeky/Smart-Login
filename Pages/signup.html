@@ -1,0 +1,58 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart-login</title>
+    <link rel="stylesheet" href="../index.html">
+    
+    
+
+
+
+
+
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+
+    <div class="container my-5 tect-center">
+        <div class="detials m-auto w-75 p-5">
+            <h1 class="text-center">Smart Login System</h1>
+            <input id="signupName" class="form-control my-3" placeholder="Enter your name" type="text">
+        <input oninput="inputValidate(this)" id="signupEmail" class="form-control my-3" placeholder="Enter your email" type="email">
+        <p class="fs-5 fw-medium py-2 d-none alert alert-danger rounded">Please enter email such as (ahmed@gmail.com)</p>
+
+        <input oninput="inputValidate(this)" id="signupPassword" class="form-control my-3" placeholder="Enter  password" type="password">
+        <p class="fs-5 fw-medium py-2 d-none alert alert-danger rounded">Please enter at least 8 character  include uppercase and lowercase and number and special character  </p>
+        
+
+        <button onclick=" signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+        <p class="text-white text-center">You have an account? <a class="text-white" href="../index.html">Signin</a></p>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="../js/signUp.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart-login</title>
+    <link rel="stylesheet" href="Pages/home.html">
+    <link rel="stylesheet" href="Pages/signup.html">
+
+
+
+
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <div class="container my-5 text-center">
+        <div class="detials m-auto w-75 p-5">
+            <h1 class="text-center">Smart Login System</h1>
+
+            <input oninput="inputValidate(this)" id="loginEmail" class="form-control my-3 "
+                placeholder="Enter your email" type="text">
+            <p class="fs-5 fw-medium py-2 d-none alert alert-danger rounded">Please enter email such as
+                (ahmed@gmail.com)</p>
+
+
+            <input  id="loginPassword" class="form-control my-3"
+                placeholder="Enter your password" type="password">
+
+            
+
+            <p id="incorrect" class="text-danger"></p>
+
+            <button onclick="login()" class="btn btn-outline-info w-100 my-3">Login</button>
+            <p class="text-white text-center">Don’t have an account? <a class="text-white" href="Pages/signup.html">Sign
+                    Up</a></p>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
